@@ -42,11 +42,15 @@ Follow these steps to get the WalkinTalkin chat app up and running on your local
    ```
 
 2. **Install Dependences:**
-    ```cd WalkinTalkin
-    npm install```
+    ```bash
+    cd WalkinTalkin
+    npm install
+    ```
 
 3. **Run the App:**
-    ```npm start```
+    ```bash
+    npm start
+    ```
 
 Open the Expo Go app on your mobile device and scan the QR code to launch the app.
 
