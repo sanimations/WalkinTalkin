@@ -14,11 +14,14 @@ import {
 import { getAuth, signInAnonymously } from "firebase/auth";
 
 const Start = ({ navigation }) => {
+
   const [name, setName] = useState("");
   const [bgColor, setBackgroundColor] = useState("#ADD8E6");
 
+  // Firebase authentication instance
   const auth = getAuth();
 
+  
   const signInUser = () => {
     signInAnonymously(auth)
       .then(result => {
